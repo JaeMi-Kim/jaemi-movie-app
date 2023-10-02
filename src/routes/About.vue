@@ -8,7 +8,7 @@
       {{ name }}
     </div>
     <div>{{ email }}</div>
-    <div>{{ blog }}</div>
+    <!-- <div>{{ blog }}</div> -->
     <div>{{ phone }}</div>
   </div>
 </template>
@@ -29,7 +29,7 @@ export default {
       'image',
       'name',
       'email',
-      'blog',
+      // 'blog',
       'phone'
     ])
     // image() {

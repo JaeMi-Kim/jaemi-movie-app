@@ -12,7 +12,7 @@
       <img src="https" alt="Jeami" />
     </RouterLink> -->
     <div class="user" @click="toAbout">
-      <img src="https" alt="Jeami" />
+      <img :src="image" :alt="name" />
     </div>
   </header>
 </template>
