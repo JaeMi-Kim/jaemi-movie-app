@@ -1,10 +1,3 @@
 [build]
   functions = "functions"
 
-# 제품 모두 
-[build]
-  command = "npm run build"
-  runctions = "functions"
-  publish = "dist"
-
-# 개발 모드
