@@ -88,10 +88,10 @@ header {
   }
 
   .user {
-    width: 40px;
-    height: 40px;
-    padding: 6px;
-    border-radius: 50%;
+    width: 80px;
+    height: 44px;
+    padding: 8px;
+    border-radius: 12px;
     box-sizing: border-box;
     background-color: $gray-200;
     cursor: pointer;
@@ -101,6 +101,8 @@ header {
     right: 40px;
     margin: auto;
     transition: .4s;
+
+
 
     &:hover {
       background-color: darken($gray-200, 10%);

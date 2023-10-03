@@ -66,15 +66,16 @@ export default {
   text-align: center;
 
   .photo {
-    width: 250px;
-    height: 250px;
+    width: 400px;
+    height: 200px;
     margin: 40px auto 20px;
     padding: 30px;
     border: 10px solid $gray-300;
-    border-radius: 50%;
+    border-radius: 20px;
     box-sizing: border-box;
     background-color: $gray-200;
     position: relative;
+    line-height: 120px;
 
     img {
       width: 100%;

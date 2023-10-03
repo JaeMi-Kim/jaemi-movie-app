@@ -1,8 +1,8 @@
 <template>
   <footer>
     <Logo />
-    <a href="https://github.com/ParkYoungWoong" target="_blank">
-      (c){{ new Date().getFullYear() }} HEROPY
+    <a href="https://main--radiant-creponne-375ed1.netlify.app/" target="self">
+      (c){{ new Date().getFullYear() }} JAEMI
     </a>
   </footer>
 </template>
@@ -21,7 +21,7 @@ export default {
 footer {
   padding: 70px 0;
   text-align: center;
-  opacity: .3;
+  opacity: .6;
 
   .logo {
     display: block;
